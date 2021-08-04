@@ -1,0 +1,93 @@
+* {
+  /*box-sizing: border-box;*/
+  margin: 0px;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 4px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+body {
+  text-align: center;
+  font-family: "Open-sans", sans-serif;
+  font-size: medium;
+  color: antiquewhite;
+}
+#body {
+  margin-top: 50px;
+}
+.navbar #navi > li > a > .active {
+  color: red;
+}
+.navbar {
+  margin-bottom: 0px;
+  text-align: center;
+}
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0px;
+}
+@media (max-width: 767px) {
+  .navbar-nav {
+    margin: 0;
+    margin-left: 0%;
+  }
+}
+
+a:active {
+  background-color: yellow;
+}
+li a:active {
+  color: orange;
+}
+
+.active {
+  color: white !important;
+}
+.gradient {
+  background-image: linear-gradient(rgb(236, 203, 128), rgb(75, 79, 81));
+}
+footer {
+  background-color: #333;
+  color: #ddd;
+  padding-top: 30px;
+  text-align: center;
+}
+.bildtext {
+  color: white;
+  font-size: 14px;
+}
+.text {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 0px !important;
+}
+.kaffetext {
+  text-align: left;
+  width: 100px;
+  margin-top: 1rem;
+  color: rgb(175, 102, 33);
+}
+.vdtext {
+  text-align: left;
+  font-size: 12px;
+  vertical-align: middle !important;
+}
+.brandimg {
+  width: 100px;
+  margin: 12px;
+}
+.kaffeimg {
+  width: 100px;
+  height: 30px;
+  margin: 12px;
+  margin-bottom: 10px;
+}
+#footertext {
+  padding-top: 30px;
+  color: lightgray;
+}
+.rad {
+  height: 40px;
+}
